@@ -1,1 +1,1 @@
-# Design-of-32-bit-MIPS-Processor
+# Design-of-Pipelined-32-bit-MIPS-Processor
