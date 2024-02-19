@@ -4,7 +4,7 @@ module pipe_MIPS32(clk1, clk2);
   input clk1, clk2; // two phase clock
   reg[31:0] IF_ID_IR, IF_ID_NPC, PC;
   reg[31:0] ID_EX_IR, ID_EX_NPC, ID_EX_A, ID_EX_B, ID_EX_IMM;
-  reg[2:0] ID_EX_TYPE, EX_MEM_TYPE, MEM_WB_TYPE; // type means whether it is R_RALU or R-MALU operation etc,.
+  reg[2:0] ID_EX_TYPE, EX_MEM_TYPE, MEM_WB_TYPE; // type means whether it is R_R ALU or R-M ALU operation etc,.
   reg[31:0] EX_MEM_IR, EX_MEM_ALUOUT, EX_MEM_B, EX_MEM_COND;
   reg[31:0] MEM_WB_IR, MEM_WB_ALUOUT, MEM_WB_LMD;
   
